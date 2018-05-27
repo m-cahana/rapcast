@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from collections import Counter
-import re
 import time
 from random import randint
 import pandas as pd
