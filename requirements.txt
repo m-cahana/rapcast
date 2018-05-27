@@ -1,0 +1,6 @@
+bs4==0.0.1
+pandas==0.23.0
+multiprocessing==2.6.2.1
+requests==2.18.1
+numpy==1.14.3
+sckikit-learn==0.19.1
