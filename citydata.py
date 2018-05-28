@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 
-appers = pd.read_csv('rappers.csv')
+rappers = pd.read_csv('rappers.csv')
 rappers.Name = rappers.Name.str.lower()
 rapper_list = rappers.Name.tolist()
 rappers.columns = ['artist', 'era', 'city', 'sub_city', 'region']
@@ -31,6 +31,7 @@ rappers = rappers.set_value(27, 'city', 'Oakland ')
 rappers = rappers.set_value(27, 'sub-city', np.NaN)
 rappers = rappers.set_value(27, 'region', 'West')
 
+
 with open('raw_lyrics.json') as f:
     raw = json.load(f)
 
@@ -42,17 +43,17 @@ df = df.reset_index()
 df.columns = ['artist', 'corpus']
 
 df = df[df['artist'].isin(rapper_list)]
-df = df.merge(rappers[['artist', 'region']], how='left', on='artist')
-df['region_id'] = df['region'].factorize()[0]
+df = df.merge(rappers[['artist', 'city']], how='left', on='artist')
+df['city_id'] = df['city'].factorize()[0]
 
-region_id_df = df[['region', 'region_id']].drop_duplicates().sort_values('region_id')
+region_id_df = df[['city', 'city_id']].drop_duplicates().sort_values('city_id')
 region_to_id = dict(region_id_df.values)
 
-id_to_region = dict(region_id_df[['region_id', 'region']].values)
+id_to_region = dict(region_id_df[['city_id', 'city']].values)
 
 tfidf = TfidfVectorizer(sublinear_tf=True, min_df=5, norm='l2', encoding='latin-1', ngram_range=(1, 2), stop_words='english')
 features = tfidf.fit_transform(df.corpus).toarray()
-labels = df.region_id
+labels = df.city_id
 
 N = 2
 for region, region_id in sorted(region_to_id.items()):
@@ -61,12 +62,12 @@ for region, region_id in sorted(region_to_id.items()):
   feature_names = np.array(tfidf.get_feature_names())[indices]
   unigrams = [v for v in feature_names if len(v.split(' ')) == 1]
   bigrams = [v for v in feature_names if len(v.split(' ')) == 2]
-  # print("# '{}':".format(region))
-  # print("  . Most correlated unigrams:\n. {}".format('\n. '.join(unigrams[-N:])))
-  # print("  . Most correlated bigrams:\n. {}".format('\n. '.join(bigrams[-N:])))
+  print("# '{}':".format(region))
+  print("  . Most correlated unigrams:\n. {}".format('\n. '.join(unigrams[-N:])))
+  print("  . Most correlated bigrams:\n. {}".format('\n. '.join(bigrams[-N:])))
 
 
-X_train, X_test, y_train, y_test = train_test_split(df['corpus'], df['region'], random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(df['corpus'], df['city'], random_state = 0)
 count_vect = CountVectorizer()
 X_train_counts = count_vect.fit_transform(X_train)
 tfidf_transformer = TfidfTransformer()
