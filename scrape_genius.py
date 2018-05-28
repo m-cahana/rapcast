@@ -19,7 +19,7 @@ def find_between(s, first, last):
 
 # *********** urls *********** 
 
-with open('nineties.json') as f:
+with open('./data/nineties.json') as f:
     artist_urls = json.load(f) 
 
 artist_urls =  {k.lower(): v for k, v in artist_urls.items()}
@@ -127,7 +127,7 @@ def scrape(url):
         artists[last_artist] = []
     artists[last_artist].append(lyrics)
 
-    with open('./urls1990s/' + url[19:] + '.json', 'w') as outfile:
+    with open('./data/urls1990s/' + url[19:] + '.json', 'w') as outfile:
         json.dump(artists, outfile)
 
     time.sleep(randint(0,5))
@@ -153,7 +153,7 @@ for i in range(len(data)):
 
 # *********** save output as json ***********
 
-with open('lyrics_1990s.json', 'w') as outfile:
+with open('./data/lyrics_1990s.json', 'w') as outfile:
         json.dump(artists, outfile)     
 
 # *********** reform output into pandas ***********
@@ -177,7 +177,7 @@ for artist, verses in artists.items():
 
 # *********** save output as csv ***********
 
-lyric_count.to_csv('lyric_corpus_count_1990s.csv', index=False)
-raw_lyrics.to_csv('lyric_corpus_1990s.csv', index=False)
+lyric_count.to_csv('./data/lyric_corpus_count_1990s.csv', index=False)
+raw_lyrics.to_csv('./data/lyric_corpus_1990s.csv', index=False)
 
 print('done!!')

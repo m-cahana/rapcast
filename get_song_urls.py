@@ -9,7 +9,7 @@ import random
 
 client_access_token = ''
 
-artist_ids = np.load('artist_ids.npy').item()
+artist_ids = np.load('./data/artist_ids.npy').item()
 
 agent_strings = ["Mozilla/5.0 (X11; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0", 
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36', 

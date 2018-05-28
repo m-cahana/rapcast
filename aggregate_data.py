@@ -24,12 +24,12 @@ for i in range(len(data)):
             else:
                 artists[artist] = verses
 
-with open('raw_lyrics.json', 'w') as outfile:
+with open('./input/raw_lyrics.json', 'w') as outfile:
         json.dump(artists, outfile) 
 
 for artist, verses in artists.items():
     artists[artist] = " ".join(verses)
     artists[artist] = Counter(artists[artist].split())
 
-with open('bag_of_words.json', 'w') as outfile:
+with open('./input/bag_of_words.json', 'w') as outfile:
         json.dump(artists, outfile) 
