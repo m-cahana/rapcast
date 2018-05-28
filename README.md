@@ -6,7 +6,7 @@ Predicts where a rapper grew up and started their career based on their lyric co
 import json
 from collections import Counter
 
-with open('bag_of_words.json') as f:
+with open('./input/bag_of_words.json') as f:
   bag = json.load(f)
 
 for artist, bag_of_words in bag.items():
