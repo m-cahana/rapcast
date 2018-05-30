@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 
-appers = pd.read_csv('./input/rappers.csv')
+rappers = pd.read_csv('./input/rappers.csv')
 rappers.Name = rappers.Name.str.lower()
 rapper_list = rappers.Name.tolist()
 rappers.columns = ['artist', 'era', 'city', 'sub_city', 'region']
