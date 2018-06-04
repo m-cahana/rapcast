@@ -1,0 +1,42 @@
+# 'Canada':
+  . Most correlated unigrams:
+. charmer
+. kardinal
+  . Most correlated bigrams:
+. belly dance
+. brown brown
+# 'Midwest':
+  . Most correlated unigrams:
+. d12
+. kuniva
+  . Most correlated bigrams:
+. kon artis
+. dirty dozen
+# 'Northeast':
+  . Most correlated unigrams:
+. cavemen
+. sheek
+  . Most correlated bigrams:
+. yo ayo
+. sheek louch
+# 'Southeast':
+  . Most correlated unigrams:
+. shawt
+. knuck
+  . Most correlated bigrams:
+. twerk twerk
+. booty booty
+# 'Southwest':
+  . Most correlated unigrams:
+. thoed
+. swishahouse
+  . Most correlated bigrams:
+. im swangin
+. swisha house
+# 'West':
+  . Most correlated unigrams:
+. vibrations
+. 13s
+  . Most correlated bigrams:
+. bust gats
+. da la

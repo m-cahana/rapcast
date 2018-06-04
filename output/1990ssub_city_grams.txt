@@ -1,0 +1,245 @@
+# 'Atlanta':
+  . Most correlated unigrams:
+. fantasies
+. darkest
+  . Most correlated bigrams:
+. things lets
+. talk sex
+# 'Brentwood':
+  . Most correlated unigrams:
+. hahhh
+. mainline
+  . Most correlated bigrams:
+. bringin funk
+. pass microphone
+# 'Bronx':
+  . Most correlated unigrams:
+. vega
+. drizzy
+  . Most correlated bigrams:
+. id talk
+. make prove
+# 'Brooklyn':
+  . Most correlated unigrams:
+. biggity
+. surprisingly
+  . Most correlated bigrams:
+. hop dont
+. spot hit
+# 'Central Islip':
+  . Most correlated unigrams:
+. escapism
+. wiggy
+  . Most correlated bigrams:
+. dem thangs
+. jiggy jiggy
+# 'Chicago':
+  . Most correlated unigrams:
+. luh
+. vo
+  . Most correlated bigrams:
+. grab things
+. cloud sky
+# 'Cleveland':
+  . Most correlated unigrams:
+. thugsta
+. layzie
+  . Most correlated bigrams:
+. krayzie bone
+. mo thug
+# 'Compton':
+  . Most correlated unigrams:
+. cpt
+. comptons
+  . Most correlated bigrams:
+. compton long
+. good ride
+# 'Dallas':
+  . Most correlated unigrams:
+. conducted
+. shay
+  . Most correlated bigrams:
+. problem yo
+. ice ice
+# 'East Point':
+  . Most correlated unigrams:
+. chrysalis
+. patton
+  . Most correlated bigrams:
+. clean aint
+. big boi
+# 'Harlem':
+  . Most correlated unigrams:
+. mcgruff
+. camron
+  . Most correlated bigrams:
+. heavy hitters
+. cause sex
+# 'Houston ':
+  . Most correlated unigrams:
+. nous
+. tue
+  . Most correlated bigrams:
+. dans la
+. que je
+# 'Inglewood':
+  . Most correlated unigrams:
+. nymphos
+. 100s
+  . Most correlated bigrams:
+. fuckin fuckin
+. thugs club
+# 'Joliest':
+  . Most correlated unigrams:
+. competitions
+. funkdafied
+  . Most correlated bigrams:
+. takin place
+. wit chu
+# 'Long Beach':
+  . Most correlated unigrams:
+. schwanz
+. aber
+  . Most correlated bigrams:
+. dum ditty
+. nate dogg
+# 'Long Island':
+  . Most correlated unigrams:
+. clans
+. notable
+  . Most correlated bigrams:
+. love fact
+. got jones
+# 'Los Angeles':
+  . Most correlated unigrams:
+. kickers
+. mickeys
+  . Most correlated bigrams:
+. danny boy
+. got lyrics
+# 'Mount Vernon':
+  . Most correlated unigrams:
+. cinco
+. courvoisier
+  . Most correlated bigrams:
+. boyz got
+. special delivery
+# 'New Orleans':
+  . Most correlated unigrams:
+. angola
+. whodi
+  . Most correlated bigrams:
+. lil daddy
+. tru niggas
+# 'New Rochelle':
+  . Most correlated unigrams:
+. sadat
+. jamar
+  . Most correlated bigrams:
+. grand puba
+. lord jamar
+# 'New York':
+  . Most correlated unigrams:
+. juju
+. pepa
+  . Most correlated bigrams:
+. salt pepa
+. want shake
+# 'Newark':
+  . Most correlated unigrams:
+. platnium
+. avon
+  . Most correlated bigrams:
+. believe let
+. rock throw
+# 'Oakland':
+  . Most correlated unigrams:
+. wussup
+. luniz
+  . Most correlated bigrams:
+. humpty hump
+. wit love
+# 'Orange':
+  . Most correlated unigrams:
+. vocab
+. boof
+  . Most correlated bigrams:
+. softly song
+. everythings gonna
+# 'Philadelphia':
+  . Most correlated unigrams:
+. izz
+. trotter
+  . Most correlated bigrams:
+. sounds nice
+. verse black
+# 'Port Arthur':
+  . Most correlated unigrams:
+. hovers
+. ugk
+  . Most correlated bigrams:
+. gotta pocket
+. nigga trill
+# 'Queens':
+  . Most correlated unigrams:
+. applebum
+. compute
+  . Most correlated bigrams:
+. queens new
+. kick yes
+# 'Queens/Brooklyn':
+  . Most correlated unigrams:
+. tiki
+. dres
+  . Most correlated bigrams:
+. black sheep
+. cab driver
+# 'Seattle':
+  . Most correlated unigrams:
+. knocka
+. tomahawk
+  . Most correlated bigrams:
+. bark like
+. mix lot
+# 'South Central':
+  . Most correlated unigrams:
+. jiggaboo
+. pharcyde
+  . Most correlated bigrams:
+. running away
+. bullshit stop
+# 'South Philadelphia':
+  . Most correlated unigrams:
+. peedi
+. gutted
+  . Most correlated bigrams:
+. 50 shots
+. beanie sigel
+# 'Southgate':
+  . Most correlated unigrams:
+. todo
+. bilingual
+  . Most correlated bigrams:
+. shotgun hand
+. biddy bye
+# 'Staten Island':
+  . Most correlated unigrams:
+. gza
+. diggs
+  . Most correlated bigrams:
+. cuban linx
+. 36 chambers
+# 'Vallejo ':
+  . Most correlated unigrams:
+. vallejo
+. tycoon
+  . Most correlated bigrams:
+. nigga 40
+. got choices
+# 'Yonkers':
+  . Most correlated unigrams:
+. louch
+. sheek
+  . Most correlated bigrams:
+. yall fucked
+. big love

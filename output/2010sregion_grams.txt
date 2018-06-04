@@ -1,0 +1,56 @@
+# 'Australia':
+  . Most correlated unigrams:
+. bettin
+. geneva
+  . Most correlated bigrams:
+. recognize im
+. wait ya
+# 'Canada':
+  . Most correlated unigrams:
+. panned
+. nav
+  . Most correlated bigrams:
+. used fucked
+. mission thats
+# 'England':
+  . Most correlated unigrams:
+. likkle
+. postman
+  . Most correlated bigrams:
+. needed change
+. dum dum
+# 'Midwest':
+  . Most correlated unigrams:
+. tink
+. gbe
+  . Most correlated bigrams:
+. catch opp
+. spark shit
+# 'Northeast':
+  . Most correlated unigrams:
+. witty
+. flatbush
+  . Most correlated bigrams:
+. got later
+. hard gon
+# 'Southeast':
+  . Most correlated unigrams:
+. bales
+. miny
+  . Most correlated bigrams:
+. booty club
+. miny moe
+# 'Southwest':
+  . Most correlated unigrams:
+. saucin
+. sta
+  . Most correlated bigrams:
+. thats shot
+. let hop
+# 'West':
+  . Most correlated unigrams:
+. sage
+. hbk
+  . Most correlated bigrams:
+. black hippy
+. jay rock

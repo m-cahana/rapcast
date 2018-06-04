@@ -1,0 +1,56 @@
+# 'Australia':
+  . Most correlated unigrams:
+. justifies
+. popstar
+  . Most correlated bigrams:
+. murda bizness
+. light yellow
+# 'Canada':
+  . Most correlated unigrams:
+. kardinal
+. offishall
+  . Most correlated bigrams:
+. gotta road
+. kardinal offishall
+# 'England':
+  . Most correlated unigrams:
+. x14
+. boiii
+  . Most correlated bigrams:
+. stars million
+. fat titties
+# 'Midwest':
+  . Most correlated unigrams:
+. kuniva
+. 313
+  . Most correlated bigrams:
+. cleveland city
+. dirty dozen
+# 'Northeast':
+  . Most correlated unigrams:
+. borough
+. bronx
+  . Most correlated bigrams:
+. yo word
+. word bond
+# 'Southeast':
+  . Most correlated unigrams:
+. decatur
+. bankhead
+  . Most correlated bigrams:
+. meeny miny
+. booty club
+# 'Southwest':
+  . Most correlated unigrams:
+. taln
+. swishahouse
+  . Most correlated bigrams:
+. swisha house
+. swang swang
+# 'West':
+  . Most correlated unigrams:
+. lbc
+. cpt
+  . Most correlated bigrams:
+. south central
+. parental discretion

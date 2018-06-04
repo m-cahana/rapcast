@@ -1,0 +1,133 @@
+# 'Brentwood':
+  . Most correlated unigrams:
+. jane
+. lounge
+  . Most correlated bigrams:
+. erick sermon
+. baby uhh
+# 'Bronx':
+  . Most correlated unigrams:
+. kris
+. gal
+  . Most correlated bigrams:
+. da di
+. bo bo
+# 'Brooklyn':
+  . Most correlated unigrams:
+. bk
+. confront
+  . Most correlated bigrams:
+. come better
+. aint easy
+# 'Compton':
+  . Most correlated unigrams:
+. nosed
+. ren
+  . Most correlated bigrams:
+. matter just
+. 100 miles
+# 'Harlem':
+  . Most correlated unigrams:
+. doug
+. abortion
+  . Most correlated bigrams:
+. know imma
+. fresh crew
+# 'Harlem ':
+  . Most correlated unigrams:
+. que
+. te
+  . Most correlated bigrams:
+. know baby
+. baby oh
+# 'Harlem/New York City':
+  . Most correlated unigrams:
+. partying
+. kurtis
+  . Most correlated bigrams:
+. kurtis blow
+. ego trip
+# 'Houston ':
+  . Most correlated unigrams:
+. ceo
+. muthafuckas
+  . Most correlated bigrams:
+. dead ass
+. police dont
+# 'Long Island':
+  . Most correlated unigrams:
+. flav
+. odor
+  . Most correlated bigrams:
+. cause cause
+. need say
+# 'Los Angeles':
+  . Most correlated unigrams:
+. tammy
+. ks
+  . Most correlated bigrams:
+. smells like
+. nigga live
+# 'Miami':
+  . Most correlated unigrams:
+. aaah
+. jai
+  . Most correlated bigrams:
+. aint trippin
+. hocus pocus
+# 'New York City':
+  . Most correlated unigrams:
+. achin
+. chamber
+  . Most correlated bigrams:
+. rest im
+. let rhythm
+# 'Oakland':
+  . Most correlated unigrams:
+. kilos
+. maybach
+  . Most correlated bigrams:
+. wanna burn
+. yeah ok
+# 'Oakland ':
+  . Most correlated unigrams:
+. bi
+. caint
+  . Most correlated bigrams:
+. start riot
+. let nuts
+# 'Queens':
+  . Most correlated unigrams:
+. darryl
+. stabbing
+  . Most correlated bigrams:
+. ll cool
+. jam master
+# 'Queens/Brooklyn':
+  . Most correlated unigrams:
+. richie
+. weasel
+  . Most correlated bigrams:
+. goes weasel
+. brooklyn queens
+# 'South Central ':
+  . Most correlated unigrams:
+. bailin
+. hauled
+  . Most correlated bigrams:
+. record like
+. niggas start
+# 'Trenton':
+  . Most correlated unigrams:
+. snapping
+. heartbeat
+  . Most correlated bigrams:
+. keepin real
+. wild west
+# 'West Philadelphia':
+  . Most correlated unigrams:
+. galaxy
+. jeff
+  . Most correlated bigrams:
+. right say
+. rock right

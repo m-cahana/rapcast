@@ -1,0 +1,343 @@
+# 'Atlanta':
+  . Most correlated unigrams:
+. eeny
+. meeny
+  . Most correlated bigrams:
+. miny moe
+. eeny meeny
+# 'Baton Rouge':
+  . Most correlated unigrams:
+. incarcerated
+. nook
+  . Most correlated bigrams:
+. talk phones
+. bread winner
+# 'Bronx':
+  . Most correlated unigrams:
+. spinking
+. highbridge
+  . Most correlated bigrams:
+. wet way
+. wonder like
+# 'Brooklyn':
+  . Most correlated unigrams:
+. ooouuu
+. brooklyns
+  . Most correlated bigrams:
+. falling yeah
+. body shake
+# 'Calumet City':
+  . Most correlated unigrams:
+. percentages
+. tink
+  . Most correlated bigrams:
+. man dat
+. fucking freak
+# 'Carol City':
+  . Most correlated unigrams:
+. blvd
+. dade
+  . Most correlated bigrams:
+. triple platinum
+. dade county
+# 'Cheltenham Township':
+  . Most correlated unigrams:
+. mafucka
+. dicky
+  . Most correlated bigrams:
+. big mama
+. dont double
+# 'Chicago':
+  . Most correlated unigrams:
+. lamron
+. gbe
+  . Most correlated bigrams:
+. im chiraq
+. catch opp
+# 'Cleveland':
+  . Most correlated unigrams:
+. blowjob
+. remembers
+  . Most correlated bigrams:
+. im austin
+. wild boy
+# 'College Park':
+  . Most correlated unigrams:
+. ky
+. drench
+  . Most correlated bigrams:
+. way doors
+. taught know
+# 'Compton':
+  . Most correlated unigrams:
+. db
+. rosecrans
+  . Most correlated bigrams:
+. loyalty know
+. ski slope
+# 'Decatur':
+  . Most correlated unigrams:
+. tasha
+. lowlifes
+  . Most correlated bigrams:
+. bobby ray
+. bombs baghdad
+# 'Deerfield Beach':
+  . Most correlated unigrams:
+. liq
+. camouflaged
+  . Most correlated bigrams:
+. yo door
+. nigga fact
+# 'Detroit':
+  . Most correlated unigrams:
+. pitt
+. driftin
+  . Most correlated bigrams:
+. easy love
+. mommy im
+# 'Fairfield':
+  . Most correlated unigrams:
+. salesman
+. aquí
+  . Most correlated bigrams:
+. going real
+. goin real
+# 'Gadsden':
+  . Most correlated unigrams:
+. bama
+. psychopath
+  . Most correlated bigrams:
+. big nuts
+. stage lights
+# 'Grapevine':
+  . Most correlated unigrams:
+. romancin
+. saucin
+  . Most correlated bigrams:
+. ta ta
+. thats shot
+# 'Hampton':
+  . Most correlated unigrams:
+. caroline
+. dram
+  . Most correlated bigrams:
+. big baby
+. like gilligan
+# 'Harlem':
+  . Most correlated unigrams:
+. adjustin
+. argh
+  . Most correlated bigrams:
+. pipe hit
+. bands safe
+# 'Houston ':
+  . Most correlated unigrams:
+. secured
+. tahiti
+  . Most correlated bigrams:
+. let hop
+. beat meat
+# 'Inglewood':
+  . Most correlated unigrams:
+. pringle
+. skeme
+  . Most correlated bigrams:
+. high level
+. free dawgs
+# 'Long Island':
+  . Most correlated unigrams:
+. franco
+. peaked
+  . Most correlated bigrams:
+. friends taking
+. woah aint
+# 'Los Angeles':
+  . Most correlated unigrams:
+. connais
+. fous
+  . Most correlated bigrams:
+. like glock
+. touchdown nigga
+# 'Memphis':
+  . Most correlated unigrams:
+. drippy
+. margarita
+  . Most correlated bigrams:
+. theyd say
+. got fronted
+# 'Meridian':
+  . Most correlated unigrams:
+. krit
+. layup
+  . Most correlated bigrams:
+. ride old
+. shit country
+# 'Mullumbimby':
+  . Most correlated unigrams:
+. bettin
+. geneva
+  . Most correlated bigrams:
+. recognize im
+. wait ya
+# 'New Orleans':
+  . Most correlated unigrams:
+. obliged
+. mashin
+  . Most correlated bigrams:
+. dont discuss
+. drive ride
+# 'New York City':
+  . Most correlated unigrams:
+. bodega
+. getem
+  . Most correlated bigrams:
+. shabba ranks
+. hi hater
+# 'Oakland':
+  . Most correlated unigrams:
+. caterpillars
+. 123
+  . Most correlated bigrams:
+. lab like
+. momma let
+# 'Panorama City':
+  . Most correlated unigrams:
+. benton
+. nocturnal
+  . Most correlated bigrams:
+. im buddy
+. doubt doubt
+# 'Paterson':
+  . Most correlated unigrams:
+. spam
+. zoovie
+  . Most correlated bigrams:
+. eh know
+. drum nigga
+# 'Philadelphia':
+  . Most correlated unigrams:
+. airin
+. omelly
+  . Most correlated bigrams:
+. im philly
+. north philly
+# 'Pittsburgh':
+  . Most correlated unigrams:
+. clint
+. spectators
+  . Most correlated bigrams:
+. change hey
+. just loose
+# 'Plumstead':
+  . Most correlated unigrams:
+. likkle
+. postman
+  . Most correlated bigrams:
+. needed change
+. dum dum
+# 'Pompano Beach':
+  . Most correlated unigrams:
+. mis
+. vez
+  . Most correlated bigrams:
+. afraid let
+. bricks bitch
+# 'Queens':
+  . Most correlated unigrams:
+. gyal
+. shanghai
+  . Most correlated bigrams:
+. work inside
+. mo yeah
+# 'Raleigh':
+  . Most correlated unigrams:
+. autism
+. tam
+  . Most correlated bigrams:
+. cole world
+. studios new
+# 'Richmond':
+  . Most correlated unigrams:
+. hbk
+. suzy
+  . Most correlated bigrams:
+. pull wont
+. talk going
+# 'Riverdale':
+  . Most correlated unigrams:
+. bricksquad
+. mafucka
+  . Most correlated bigrams:
+. robbed niggas
+. lay floor
+# 'Seattle':
+  . Most correlated unigrams:
+. illustration
+. macklemore
+  . Most correlated bigrams:
+. seattle wa
+. sound new
+# 'Southeast':
+  . Most correlated unigrams:
+. ourself
+. 1k
+  . Most correlated bigrams:
+. cake ima
+. lil kodak
+# 'Stone Mountain':
+  . Most correlated unigrams:
+. navigator
+. prynce
+  . Most correlated bigrams:
+. movement like
+. ray ban
+# 'Toronto':
+  . Most correlated unigrams:
+. panned
+. nav
+  . Most correlated bigrams:
+. used fucked
+. mission thats
+# 'Tupelo':
+  . Most correlated unigrams:
+. eardrummers
+. swae
+  . Most correlated bigrams:
+. better hey
+. swae lee
+# 'Ventura':
+  . Most correlated unigrams:
+. lewinsky
+. girlie
+  . Most correlated bigrams:
+. monica lewinsky
+. fun fun
+# 'Virginia Beach':
+  . Most correlated unigrams:
+. quarterbackin
+. woooh
+  . Most correlated bigrams:
+. spent stacks
+. baby care
+# 'Washington, D.C.':
+  . Most correlated unigrams:
+. medellin
+. jefe
+  . Most correlated bigrams:
+. fuck smoked
+. fan club
+# 'Watts':
+  . Most correlated unigrams:
+. predators
+. gardens
+  . Most correlated bigrams:
+. feeling blessed
+. blessed cause
+# 'Wisconsin Rapids':
+  . Most correlated unigrams:
+. bambi
+. cottonmouth
+  . Most correlated bigrams:
+. feel kind
+. im classic
