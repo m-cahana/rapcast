@@ -10,26 +10,6 @@ from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 
 rappers = pd.read_csv('./input/rappers.csv')
-rappers.Name = rappers.Name.str.lower()
-rapper_list = rappers.Name.tolist()
-rappers.columns = ['artist', 'era', 'city', 'sub_city', 'region']
-rappers.region = rappers.region.replace('Northeast ', 'Northeast')
-rappers.region = rappers.region.replace('New Jersey', 'Northeast')
-rappers.region = rappers.region.replace('Southeast ', 'Southeast')
-rappers.region = rappers.region.replace('Souteast', 'Southeast')
-rappers.region = rappers.region.replace('Souteast ', 'Southeast')
-
-rappers.city = rappers.city.replace('Mephis', 'Memphis')
-rappers.city = rappers.city.replace('Newark/East Orange', 'Newark')
-rappers.city = rappers.city.replace('Long Beach', 'Los Angeles')
-rappers.city = rappers.city.replace('Beverly Hills', 'Los Angeles')
-rappers.city = rappers.city.replace('New York ', 'New York')
-rappers.city = rappers.city.replace('East Orange', 'Orange')
-rappers.city = rappers.city.replace('South Orange', 'Orange')
-rappers.city = rappers.city.replace('Miami ', 'Miami')
-rappers = rappers.set_value(27, 'city', 'Oakland ')
-rappers = rappers.set_value(27, 'sub-city', np.NaN)
-rappers = rappers.set_value(27, 'region', 'West')
 
 
 with open('./input/raw_lyrics.json') as f:

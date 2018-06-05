@@ -1,0 +1,85 @@
+sub_city,state,country,artist,count
+Albany,NY,USA,['field mob'],1
+Atlanta,GA,USA,"['arrested development', 'goodie mob', 'kris kross', 'big boi', 'crime mob', 'gorilla zoe', 'gucci mane', 'killer mike', 'lil jon', 'lil scrappy', 'ludacris', 'oj da juiceman', 'pastor troy', 'rocko', 'soulja boy', 't.i.', 'ying yang twins', 'young dro', 'young jeezy', 'youngbloodz', 'yung joc', 'bankroll fresh', 'ca$h out', 'dae dae', 'future', 'ilovemakonnen', 'k camp', 'lil yachty', 'madeintyo', 'migos', 'og maco', 'que', 'rich homie quan', 'roscoe dash', 'russ', 'shawty lo', 'travis porter', 'trinidad james', 'yfn lucci', 'young thug']",40
+Baton Rouge,LA,USA,"['boosie badazz', 'webbie', 'kevin gates']",3
+Bedford-Stuyvesant,NY,USA,['lil kim'],1
+Beverly Hills,CA,USA,['the alchemist'],1
+Brentwood,NY,USA,"['epmd', 'craig mack', 'erick sermon']",3
+Bronx,NY,USA,"['boogie down productions', 'krs-one', 'slick rick', 'big pun ', 'camp lo', 'canibus', 'fat joe', 'jim jones', 'ramy ma', 'a boogie wit da hoodie', 'french montana']",11
+Brooklyn,NY,USA,"['big daddy kane', 'mc lyte', 'az ', 'busta rhymes', 'chubb rock', 'das efx', 'digable planets', 'gza', 'gang starr', 'jay-z', 'nas', 'o.c.', ""ol' dirty bastard"", 'pras michel', 'fabolous', 'mos def', 'talib kweli', 'desiigner', 'joey bada$$', 'young m.a.']",20
+Calumet City,IL,USA,['tink'],1
+Carol City,FL,USA,"['flo rida', 'rick ross']",2
+Central Islip,NY,USA,['keith murray'],1
+Cheltenham Township,PA,USA,['lil dicky'],1
+Chicago,IL,USA,"['common ', 'kanye west', 'lupe fiasco', 'twista', 'chance the rapper', 'chief keef', 'dreezy', 'lil bibby', 'lil durk', 'lil reese', 'towkio']",11
+Cleveland,OH,USA,"['bone thugs-n-harmony', 'krayzie bone', 'kid cudi', 'king chip', 'machine gun kelly']",5
+College Park,GA,USA,['2 chainz'],1
+Columbus,OH,USA,['bow wow'],1
+Compton,CA,USA,"['eazy-e', 'n.w.a. ', 'coolio ', 'dj quik', 'dr. dre', 'mc eiht', 'the game', 'kendrick lamar', 'problem', 'tyga', 'yg']",11
+Dallas,TX,USA,['vanilla ice'],1
+Decatur,GA,USA,['b.o.b'],1
+Deerfield Beach,FL,USA,['ace hood'],1
+Detroit,MI,USA,"['d12', 'eminem', 'obie trice', ""royce da 5'9"", 'slum village', 'big sean', 'danny brown', 'dej loaf']",8
+East Point,GA,USA,['outkast'],1
+Fairfield,CA,USA,['sage the gemini'],1
+Fort Lauderdale,FL,USA,['kodak black'],1
+Fort Meyers,FL,USA,['plies'],1
+Gadsden,AL,USA,['yelawolf'],1
+Grapevine,TX,USA,['post malone'],1
+Hampton,VA,USA,['d.r.a.m.'],1
+Harlem,NY,USA,"['dana dane', 'doug e. fresh', 'kurtis blow', 'big l', 'ma$e', 'black rob', ""cam'ron"", 'joe budden', 'juelz santana', 'a$ap rocky']",10
+Houston ,TX,USA,"['geto boys', 'scarface', 'chamillionaire', ""lil' flip"", 'mike jones', 'paul wall', 'slim thug', 'kirko bangz', 't-wayne', 'travis scott', 'ugly god']",11
+Inglewood,CA,USA,"['mack 10', 'skeme']",2
+Jackson,MS,USA,['david banner'],1
+Joliest,IL,USA,['da brat'],1
+Kansas City,MO,USA,['tech n9ne'],1
+LaGrange,GA,USA,['bubba sparxxx'],1
+Long Beach,CA,USA,"['nate dogg', 'snoop dogg ', 'warren g']",3
+Long Island,NY,USA,"['biz markie', 'public enemy', 'de la soul', 'method man', 'hoodie allen']",5
+Los Angeles,CA,USA,"['ice-t', 'the d.o.c.', 'house of pain', 'tha alkaholiks', 'tha dogg pound', 'afroman', 'dilated peoples', 'xzibit', 'earl sweatshirt', 'kid ink', 'logic', 'nipsey hussle', 'o.t. genasis', 'schoolboy q']",14
+Louisville,KY,USA,['nappy roots'],1
+Memphis,TN,USA,"['juicy j', 'project pat', 'three 6 mafia', 'yo gotti', 'young dolph']",5
+Meridian,MS,USA,['big k.r.i.t.'],1
+Miami,FL,USA,"['the 2 live crew', 'trick daddy']",2
+Mount Vernon,NY,USA,['p. diddy'],1
+Mullumbimby,NSW,AU,['iggy azalea'],1
+Nashville,TN,USA,['young buck'],1
+New Orleans,LA,USA,"['b.g.', 'master p', 'mia x', 'mystikal', 'silkk the shocker', 'soulja slim', 'big tymers', 'birdman', 'juvenile', 'lil wayne', 'curren$y']",11
+New Rochelle,NY,USA,"['brand nubian', 'grand puba']",2
+New York,NY,USA,"['salt-n-pepa', 'the beatnuts', 'the notorious b.i.g.', 'memphis bleek', 'shyne', 'styles p']",6
+New York City,NY,USA,"['beastie boys', 'eric b. & rakim', 'a$ap ferg', 'maino']",4
+Newark,NJ,USA,"['lords of the underground', 'redman', 'wyclef jean']",3
+Oakland,CA,USA,"['mc hammer', 'too $hort', '2pac ', 'digital underground', 'luniz', 'mistah f.a.b.', 'g-eazy']",7
+Orange,NJ,USA,"['fugees', 'lauryn hill', 'naughty by nature']",3
+Panorama City,CA,USA,['hopsin'],1
+Paterson,NJ,USA,"['fetty wap', 'monty']",2
+Philadelphia,PA,USA,"['the roots', 'cassidy', 'eve', 'freeway', 'young gunz', 'lil uzi vert', 'meek mill', 'young chris']",8
+Pittsburgh,PA,USA,"['wiz khalifa', 'chevy woods', 'mac miller']",3
+Pompano Beach,FL,USA,['xxxtentacion'],1
+Port Arthur,TX,USA,"['ugk', 'bun b']",2
+Portsmouth,VA,USA,['missy elliot'],1
+Queens,NY,USA,"['3rd bass', 'll cool j ', 'run-dmc', 'a tribe called quest', 'black sheep ', 'kool g rap', 'lost boyz', 'mobb deep', 'onyx', 'q-tip', 'young mc', '50 cent', 'g-unit', 'ja rule', 'lloyd banks', 'n.o.r.e.', 'pharoahe monch', 'tony yayo', 'action bronson', 'nicki minaj']",20
+Raleigh,NC,USA,['j. cole'],1
+Richmond,CA,USA,['iamsu!'],1
+Riverdale,GA,USA,['waka flocka flame'],1
+Seattle,WA,USA,"['sir mix-a-lot', 'macklemore & ryan lewis']",2
+Snow Hill,NC,USA,['petey pablo'],1
+South Central,CA,USA,['the pharcyde'],1
+South Central ,CA,USA,['ice cube'],1
+South Philadelphia,PA,USA,['beanie sigel'],1
+Southgate,CA,USA,['cypress hill'],1
+St. Louis,MO,USA,"['chingy', 'murphy lee', 'nelly']",3
+Staten Island,NY,USA,"['rza', 'raekwon', 'wu-tang clan ', 'cappadonna', 'ghostface killah']",5
+Stone Mountain,GA,USA,"['childish gambino', 'cyhi the prynce']",2
+Tallahassee,FL,USA,['t-pain'],1
+Toronto,ON,USA,"['kardinal offishall', 'drake', 'nav']",3
+Trenton,NJ,USA,['kool moe dee'],1
+Tupelo,MS,USA,['rae sremmurd'],1
+Vallejo ,CA,USA,['e-40'],1
+Ventura,CA,USA,['kyle'],1
+Virginia Beach,VA,USA,"['clipse', 'pusha t']",2
+"Washington, D.C.","Washington, D.C.",USA,"['shy glizzy', 'wale']",2
+Watts,CA,USA,['jay rock'],1
+West Philadelphia,PA,USA,['dj jazzy jeff & the fresh prince'],1
+Wisconsin Rapids,WI,USA,['jidenna'],1
+Yonkers,NY,USA,"['the lox', 'dmx', 'jadakiss']",3

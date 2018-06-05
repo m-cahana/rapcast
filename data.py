@@ -10,7 +10,6 @@ from sklearn.naive_bayes import MultinomialNB
 import numpy as np
 import matplotlib.pyplot as plt
 
-# REVIEW: appers = pd.read_csv('./input/rappers.csv')
 rappers = pd.read_csv('./input/rappers.csv')
 rappers.Name = rappers.Name.str.lower()
 rappers.columns = ['artist', 'era', 'city', 'sub_city', 'region']
