@@ -1,0 +1,266 @@
+# 'Albany':
+  . Most correlated unigrams:
+. slammers
+. fuckn
+  . Most correlated bigrams:
+. juice say
+. baby bend
+# 'Atlanta':
+  . Most correlated unigrams:
+. decatur
+. knuck
+  . Most correlated bigrams:
+. atlanta ga
+. crime mob
+# 'Baton Rouge':
+  . Most correlated unigrams:
+. badazz
+. webbie
+  . Most correlated bigrams:
+. im forreal
+. bad azz
+# 'Bedford-Stuyvesant':
+  . Most correlated unigrams:
+. toted
+. kimmy
+  . Most correlated bigrams:
+. respect youll
+. queen bitch
+# 'Beverly Hills':
+  . Most correlated unigrams:
+. vibrations
+. 13s
+  . Most correlated bigrams:
+. bust gats
+. bust raps
+# 'Bowling Green':
+  . Most correlated unigrams:
+. faucets
+. awwwww
+  . Most correlated bigrams:
+. kids looking
+. dime quarter
+# 'Bronx':
+  . Most correlated unigrams:
+. josé
+. amore
+  . Most correlated bigrams:
+. woke feeling
+. rockin rollin
+# 'Brooklyn':
+  . Most correlated unigrams:
+. mating
+. bey
+  . Most correlated bigrams:
+. black star
+. bright stars
+# 'Carol City':
+  . Most correlated unigrams:
+. daa
+. struts
+  . Most correlated bigrams:
+. dat girl
+. face good
+# 'Chicago':
+  . Most correlated unigrams:
+. fiasco
+. mythology
+  . Most correlated bigrams:
+. lupe fiasco
+. im chi
+# 'Columbus':
+  . Most correlated unigrams:
+. wows
+. yippie
+  . Most correlated bigrams:
+. just alike
+. ignorant shit
+# 'Compton':
+  . Most correlated unigrams:
+. barkleys
+. roped
+  . Most correlated bigrams:
+. jay niggas
+. im actor
+# 'Detroit':
+  . Most correlated unigrams:
+. denaun
+. kuniva
+  . Most correlated bigrams:
+. kon artis
+. dirty dozen
+# 'Fort Meyers':
+  . Most correlated unigrams:
+. thottie
+. bood
+  . Most correlated bigrams:
+. forever live
+. english dont
+# 'Greenville':
+  . Most correlated unigrams:
+. leek
+. freek
+  . Most correlated bigrams:
+. daddy ya
+. club banger
+# 'Harlem':
+  . Most correlated unigrams:
+. barge
+. harlems
+  . Most correlated bigrams:
+. bring sand
+. beach dont
+# 'Houston ':
+  . Most correlated unigrams:
+. thoed
+. swishahouse
+  . Most correlated bigrams:
+. swisha house
+. im swangin
+# 'Jackson':
+  . Most correlated unigrams:
+. sookie
+. napped
+  . Most correlated bigrams:
+. daddy look
+. look daddy
+# 'Kansas City':
+  . Most correlated unigrams:
+. kaliko
+. n9ne
+  . Most correlated bigrams:
+. kill hell
+. sorry shit
+# 'LaGrange':
+  . Most correlated unigrams:
+. yonder
+. sparxxx
+  . Most correlated bigrams:
+. wild ass
+. bubba sparxxx
+# 'Los Angeles':
+  . Most correlated unigrams:
+. tash
+. dilated
+  . Most correlated bigrams:
+. master like
+. running away
+# 'Memphis':
+  . Most correlated unigrams:
+. barrin
+. junt
+  . Most correlated bigrams:
+. mask glock
+. triple triple
+# 'Miami':
+  . Most correlated unigrams:
+. lighthouse
+. latoya
+  . Most correlated bigrams:
+. aint iced
+. tuck tuck
+# 'Nashville':
+  . Most correlated unigrams:
+. musik
+. bargains
+  . Most correlated bigrams:
+. hop chevy
+. running police
+# 'New Orleans':
+  . Most correlated unigrams:
+. tymer
+. cmr
+  . Most correlated bigrams:
+. big tymer
+. baller blockin
+# 'New York':
+  . Most correlated unigrams:
+. autobiographical
+. chyeah
+  . Most correlated bigrams:
+. wrist shine
+. coke connect
+# 'Oakland':
+  . Most correlated unigrams:
+. mistah
+. thizz
+  . Most correlated bigrams:
+. dinner movie
+. days sit
+# 'Philadelphia':
+  . Most correlated unigrams:
+. roasted
+. cavemen
+  . Most correlated bigrams:
+. glass just
+. lets dance
+# 'Pittsburgh':
+  . Most correlated unigrams:
+. camos
+. queso
+  . Most correlated bigrams:
+. rollin weed
+. broke going
+# 'Port Arthur':
+  . Most correlated unigrams:
+. clacks
+. trillionaire
+  . Most correlated bigrams:
+. bun dont
+. cadillac nigga
+# 'Portsmouth':
+  . Most correlated unigrams:
+. blacka
+. biggity
+  . Most correlated bigrams:
+. john blaze
+. girl knew
+# 'Queens':
+  . Most correlated unigrams:
+. pone
+. scrambler
+  . Most correlated bigrams:
+. tony yayo
+. verse lloyd
+# 'St. Louis':
+  . Most correlated unigrams:
+. herre
+. tics
+  . Most correlated bigrams:
+. murphy lee
+. heard bad
+# 'Staten Island':
+  . Most correlated unigrams:
+. theodore
+. cappadonna
+  . Most correlated bigrams:
+. tang clan
+. tony starks
+# 'Tallahassee':
+  . Most correlated unigrams:
+. bammer
+. artie
+  . Most correlated bigrams:
+. joke say
+. florida nigga
+# 'Toronto':
+  . Most correlated unigrams:
+. charmer
+. kardinal
+  . Most correlated bigrams:
+. belly dance
+. brown brown
+# 'Virginia Beach':
+  . Most correlated unigrams:
+. nearby
+. bod
+  . Most correlated bigrams:
+. gun life
+. girls goin
+# 'Yonkers':
+  . Most correlated unigrams:
+. arf
+. hunh
+  . Most correlated bigrams:
+. dogs gon
+. time build

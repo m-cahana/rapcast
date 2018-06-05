@@ -1,0 +1,35 @@
+# 'Midwest':
+  . Most correlated unigrams:
+. thugsta
+. layzie
+  . Most correlated bigrams:
+. mo thug
+. biggie biggie
+# 'Northeast':
+  . Most correlated unigrams:
+. vogues
+. wir
+  . Most correlated bigrams:
+. talk sex
+. things lets
+# 'Southeast':
+  . Most correlated unigrams:
+. angola
+. whodi
+  . Most correlated bigrams:
+. talk lets
+. talk sex
+# 'Southwest':
+  . Most correlated unigrams:
+. mur
+. shay
+  . Most correlated bigrams:
+. problem yo
+. ice ice
+# 'West':
+  . Most correlated unigrams:
+. lbc
+. cavi
+  . Most correlated bigrams:
+. swap meet
+. nate dogg

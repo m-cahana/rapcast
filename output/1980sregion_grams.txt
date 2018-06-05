@@ -1,0 +1,28 @@
+# 'Northeast':
+  . Most correlated unigrams:
+. mothafuckin
+. yay
+  . Most correlated bigrams:
+. nigga aint
+. young nigga
+# 'Southeast':
+  . Most correlated unigrams:
+. aaah
+. jai
+  . Most correlated bigrams:
+. aint trippin
+. hocus pocus
+# 'Southwest':
+  . Most correlated unigrams:
+. ceo
+. muthafuckas
+  . Most correlated bigrams:
+. dead ass
+. police dont
+# 'West':
+  . Most correlated unigrams:
+. ren
+. parental
+  . Most correlated bigrams:
+. make bitch
+. lil nigga
