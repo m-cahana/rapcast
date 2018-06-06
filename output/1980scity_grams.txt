@@ -1,33 +1,49 @@
-# 'Houston ':  . Most correlated unigrams:
+# 'Houston ':
+  . Most correlated unigrams:
 . ceo
-. muthafuckas  . Most correlated bigrams:
+. muthafuckas
+  . Most correlated bigrams:
 . dead ass
-. police dont# 'Los Angeles':  . Most correlated unigrams:
+. police dont
+# 'Los Angeles':
+  . Most correlated unigrams:
 . ren
-. parental  . Most correlated bigrams:
+. parental
+  . Most correlated bigrams:
 . nigga live
-. rat pack# 'Miami':  . Most correlated unigrams:
+. rat pack
+# 'Miami':
+  . Most correlated unigrams:
 . aaah
-. jai  . Most correlated bigrams:
+. jai
+  . Most correlated bigrams:
 . aint trippin
-. hocus pocus# 'New York':  . Most correlated unigrams:
+. hocus pocus
+# 'New York':
+  . Most correlated unigrams:
 . yay
-. ks  . Most correlated bigrams:
+. ks
+  . Most correlated bigrams:
 . nigga aint
-. young nigga# 'Oakland':  . Most correlated unigrams:
+. young nigga
+# 'Oakland':
+  . Most correlated unigrams:
+. maybach
 . kilos
-. maybach  . Most correlated bigrams:
-. wanna burn
-. yeah ok# 'Oakland ':  . Most correlated unigrams:
-. bi
-. caint  . Most correlated bigrams:
-. start riot
-. let nuts# 'Philadelphia':  . Most correlated unigrams:
+  . Most correlated bigrams:
+. fuck bitches
+. niggas gon
+# 'Philadelphia':
+  . Most correlated unigrams:
 . galaxy
-. jeff  . Most correlated bigrams:
+. jeff
+  . Most correlated bigrams:
 . right say
-. rock right# 'Trenton':  . Most correlated unigrams:
+. rock right
+# 'Trenton':
+  . Most correlated unigrams:
 . snapping
-. heartbeat  . Most correlated bigrams:
+. heartbeat
+  . Most correlated bigrams:
 . keepin real
 . wild west
