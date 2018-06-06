@@ -19,13 +19,6 @@
   . Most correlated bigrams:
 . lot club
 . bitch tattoos
-# 'Bowling Green':
-  . Most correlated unigrams:
-. roota
-. awwwwwwww
-  . Most correlated bigrams:
-. head shawty
-. country hell
 # 'Carol City':
   . Most correlated unigrams:
 . struts
@@ -89,13 +82,6 @@
   . Most correlated bigrams:
 . said shoulda
 . im fulla
-# 'Greenville':
-  . Most correlated unigrams:
-. ohhhhhhhhhhh
-. pab
-  . Most correlated bigrams:
-. come raise
-. ones uh
 # 'Hampton':
   . Most correlated unigrams:
 . dram
@@ -145,6 +131,13 @@
   . Most correlated bigrams:
 . city compton
 . parental discretion
+# 'Louisville':
+  . Most correlated unigrams:
+. roota
+. awwwwwwww
+  . Most correlated bigrams:
+. head shawty
+. country hell
 # 'Memphis':
   . Most correlated unigrams:
 . junt
@@ -180,13 +173,6 @@
   . Most correlated bigrams:
 . wild magnolia
 . tru niggas
-# 'New South Wales':
-  . Most correlated unigrams:
-. justifies
-. popstar
-  . Most correlated bigrams:
-. murda bizness
-. light yellow
 # 'New York':
   . Most correlated unigrams:
 . flatbush
@@ -203,18 +189,11 @@
 . face ready
 # 'Oakland':
   . Most correlated unigrams:
-. luniz
+. thizz
 . numskull
   . Most correlated bigrams:
-. kiss ill
 . worry oh
-# 'Oakland ':
-  . Most correlated unigrams:
-. oaktown
-. blowe
-  . Most correlated bigrams:
-. verse hort
-. hort dog
+. yee im
 # 'Orange':
   . Most correlated unigrams:
 . prazwell
@@ -278,6 +257,13 @@
   . Most correlated bigrams:
 . people arent
 . ya raise
+# 'Snow Hill':
+  . Most correlated unigrams:
+. ohhhhhhhhhhh
+. pab
+  . Most correlated bigrams:
+. come raise
+. ones uh
 # 'St. Louis':
   . Most correlated unigrams:
 . tics
@@ -285,6 +271,13 @@
   . Most correlated bigrams:
 . murphy lee
 . floor pop
+# 'Sydney':
+  . Most correlated unigrams:
+. justifies
+. popstar
+  . Most correlated bigrams:
+. murda bizness
+. light yellow
 # 'Tallahassee':
   . Most correlated unigrams:
 . nilla

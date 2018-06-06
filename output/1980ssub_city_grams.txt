@@ -84,18 +84,11 @@
 . let rhythm
 # 'Oakland':
   . Most correlated unigrams:
-. kilos
 . maybach
+. kilos
   . Most correlated bigrams:
-. wanna burn
-. yeah ok
-# 'Oakland ':
-  . Most correlated unigrams:
-. bi
-. caint
-  . Most correlated bigrams:
-. start riot
-. let nuts
+. fuck bitches
+. niggas gon
 # 'Queens':
   . Most correlated unigrams:
 . darryl

@@ -33,13 +33,6 @@
   . Most correlated bigrams:
 . uh pockets
 . weight money
-# 'Bowling Green':
-  . Most correlated unigrams:
-. roota
-. awwwwwwww
-  . Most correlated bigrams:
-. head shawty
-. country hell
 # 'Brentwood':
   . Most correlated unigrams:
 . mainline
@@ -187,13 +180,6 @@
   . Most correlated bigrams:
 . gas smokin
 . need bucks
-# 'Greenville':
-  . Most correlated unigrams:
-. ohhhhhhhhhhh
-. pab
-  . Most correlated bigrams:
-. come raise
-. ones uh
 # 'Hampton':
   . Most correlated unigrams:
 . dram
@@ -285,6 +271,13 @@
   . Most correlated bigrams:
 . tha liks
 . white thought
+# 'Louisville':
+  . Most correlated unigrams:
+. roota
+. awwwwwwww
+  . Most correlated bigrams:
+. head shawty
+. country hell
 # 'Memphis':
   . Most correlated unigrams:
 . junt
@@ -364,18 +357,11 @@
 . face ready
 # 'Oakland':
   . Most correlated unigrams:
-. luniz
+. thizz
 . numskull
   . Most correlated bigrams:
-. kiss ill
 . worry oh
-# 'Oakland ':
-  . Most correlated unigrams:
-. oaktown
-. blowe
-  . Most correlated bigrams:
-. verse hort
-. hort dog
+. yee im
 # 'Orange':
   . Most correlated unigrams:
 . prazwell
@@ -481,6 +467,13 @@
   . Most correlated bigrams:
 . people arent
 . ya raise
+# 'Snow Hill':
+  . Most correlated unigrams:
+. ohhhhhhhhhhh
+. pab
+  . Most correlated bigrams:
+. come raise
+. ones uh
 # 'South Central':
   . Most correlated unigrams:
 . jiggaboo
