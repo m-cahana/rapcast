@@ -1,61 +1,105 @@
-# 'Atlanta':  . Most correlated unigrams:
+# 'Atlanta':
+  . Most correlated unigrams:
 . darkest
-. headliner  . Most correlated bigrams:
+. headliner
+  . Most correlated bigrams:
 . things lets
-. talk sex# 'Chicago':  . Most correlated unigrams:
-. regularly
-. funkdafied  . Most correlated bigrams:
-. say comes
-. windy city# 'Cleveland':  . Most correlated unigrams:
-. thugsta
-. layzie  . Most correlated bigrams:
-. krayzie bone
-. mo thug# 'Dallas':  . Most correlated unigrams:
-. conducted
-. shay  . Most correlated bigrams:
-. problem yo
-. ice ice# 'Houston ':  . Most correlated unigrams:
-. nous
-. tue  . Most correlated bigrams:
-. dans la
-. que je# 'Los Angeles':  . Most correlated unigrams:
-. daz
-. lbc  . Most correlated bigrams:
-. fun homies
-. nate dogg# 'New Orleans':  . Most correlated unigrams:
-. angola
-. whodi  . Most correlated bigrams:
-. lil daddy
-. tru niggas# 'New York':  . Most correlated unigrams:
-. wir
-. ayyo  . Most correlated bigrams:
 . talk sex
-. things lets# 'Newark':  . Most correlated unigrams:
+# 'Chicago':
+  . Most correlated unigrams:
+. regularly
+. funkdafied
+  . Most correlated bigrams:
+. say comes
+. windy city
+# 'Cleveland':
+  . Most correlated unigrams:
+. thugsta
+. layzie
+  . Most correlated bigrams:
+. krayzie bone
+. mo thug
+# 'Dallas':
+  . Most correlated unigrams:
+. conducted
+. shay
+  . Most correlated bigrams:
+. problem yo
+. ice ice
+# 'Houston ':
+  . Most correlated unigrams:
+. nous
+. tue
+  . Most correlated bigrams:
+. dans la
+. que je
+# 'Los Angeles':
+  . Most correlated unigrams:
+. daz
+. lbc
+  . Most correlated bigrams:
+. fun homies
+. nate dogg
+# 'New Orleans':
+  . Most correlated unigrams:
+. angola
+. whodi
+  . Most correlated bigrams:
+. lil daddy
+. tru niggas
+# 'New York':
+  . Most correlated unigrams:
+. wir
+. ayyo
+  . Most correlated bigrams:
+. talk sex
+. things lets
+# 'Newark':
+  . Most correlated unigrams:
 . platnium
-. avon  . Most correlated bigrams:
+. avon
+  . Most correlated bigrams:
 . believe let
-. rock throw# 'Oakland':  . Most correlated unigrams:
+. rock throw
+# 'Oakland':
+  . Most correlated unigrams:
 . wussup
-. luniz  . Most correlated bigrams:
+. luniz
+  . Most correlated bigrams:
 . humpty hump
-. wit love# 'Orange':  . Most correlated unigrams:
+. wit love
+# 'Orange':
+  . Most correlated unigrams:
 . vocab
-. boof  . Most correlated bigrams:
+. boof
+  . Most correlated bigrams:
 . softly song
-. everythings gonna# 'Philadelphia':  . Most correlated unigrams:
+. everythings gonna
+# 'Philadelphia':
+  . Most correlated unigrams:
 . ops
-. peedi  . Most correlated bigrams:
+. peedi
+  . Most correlated bigrams:
 . man roll
-. things fall# 'Port Arthur':  . Most correlated unigrams:
+. things fall
+# 'Port Arthur':
+  . Most correlated unigrams:
 . hovers
-. ugk  . Most correlated bigrams:
+. ugk
+  . Most correlated bigrams:
 . gotta pocket
-. nigga trill# 'San Francisco':  . Most correlated unigrams:
+. nigga trill
+# 'San Francisco':
+  . Most correlated unigrams:
 . vallejo
-. tycoon  . Most correlated bigrams:
+. tycoon
+  . Most correlated bigrams:
 . nigga 40
-. got choices# 'Seattle':  . Most correlated unigrams:
+. got choices
+# 'Seattle':
+  . Most correlated unigrams:
 . knocka
-. tomahawk  . Most correlated bigrams:
+. tomahawk
+  . Most correlated bigrams:
 . bark like
 . mix lot

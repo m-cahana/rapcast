@@ -33,13 +33,6 @@
   . Most correlated bigrams:
 . bust gats
 . bust raps
-# 'Bowling Green':
-  . Most correlated unigrams:
-. faucets
-. awwwww
-  . Most correlated bigrams:
-. kids looking
-. dime quarter
 # 'Bronx':
   . Most correlated unigrams:
 . josé
@@ -96,13 +89,6 @@
   . Most correlated bigrams:
 . forever live
 . english dont
-# 'Greenville':
-  . Most correlated unigrams:
-. leek
-. freek
-  . Most correlated bigrams:
-. daddy ya
-. club banger
 # 'Harlem':
   . Most correlated unigrams:
 . barge
@@ -145,6 +131,13 @@
   . Most correlated bigrams:
 . master like
 . running away
+# 'Louisville':
+  . Most correlated unigrams:
+. faucets
+. awwwww
+  . Most correlated bigrams:
+. kids looking
+. dime quarter
 # 'Memphis':
   . Most correlated unigrams:
 . barrin
@@ -222,6 +215,13 @@
   . Most correlated bigrams:
 . tony yayo
 . verse lloyd
+# 'Snow Hill':
+  . Most correlated unigrams:
+. leek
+. freek
+  . Most correlated bigrams:
+. daddy ya
+. club banger
 # 'St. Louis':
   . Most correlated unigrams:
 . herre
