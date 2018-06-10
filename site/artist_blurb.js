@@ -1,4 +1,5 @@
 //Requirements
+var _ = require('lodash');
 var Handlebars = require('handlebars');
 var fs = require('fs');
 var mkdirp = require('mkdirp');
@@ -14,9 +15,32 @@ var artistHTML =
     "<p>Most common words: {{common_words}}</p>" +
   "</div>"
 
+var eek = require('./templates/artist.hbs');
 var context = require("./../output/search_data.json");
 
- function build() {
-   for var i
+var artists = [];
+for (var artist in context) artists.push(artist);
+// console.log(artists)
 
+ function blurbBuild() {
+   for (var i = 0; i < artists.length; i++) {
+     var fileName = './dist/'+artists[i]+'.html';
+     var stream = fs.createWriteStream(fileName);
+     var result = eek(context[artists[i]]);
+     stream.write(result);
+     stream.end()
+   }
  }
+
+function pageBuild() {
+  var fileName = './outtie.html';
+  var stream = fs.createWriteStream(fileName);
+  for (var i = 0; i < artists.length; i++) {
+    var result = eek(context[artists[i]]);
+    stream.write(result);
+  }
+  stream.end()
+}
+
+ // blurbBuild()
+ pageBuild()
