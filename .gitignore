@@ -1,3 +1,5 @@
 scratch.py
 __pycache__/ 
 output/allsub_city.json
+*.DS_Store
+site/node_modules/
