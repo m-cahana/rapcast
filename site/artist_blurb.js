@@ -33,13 +33,17 @@ for (var artist in context) artists.push(artist);
  }
 
 function pageBuild() {
-  var fileName = './outtie.html';
-  var stream = fs.createWriteStream(fileName);
+  var artistDivs = './outtie.html';
+  var dropdown = './dropdown.html';
+  var artistStream = fs.createWriteStream(artistDivs);
+  var dropdownStream = fs.createWriteStream(dropdown);
   for (var i = 0; i < artists.length; i++) {
-    var result = eek(context[artists[i]]);
-    stream.write(result);
+    var artistResult = eek(context[artists[i]]);
+    artistStream.write(artistResult);
+    dropdownStream.write("<li>" + artists[i] + "</li>");
   }
-  stream.end()
+  artistStream.end()
+  dropdownStream.end()
 }
 
  // blurbBuild()
