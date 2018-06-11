@@ -5,16 +5,6 @@ var fs = require('fs');
 var mkdirp = require('mkdirp');
 var prettifyHtml = require('prettify-html');
 
-// Template for artists' divs
-var artistHTML =
-  "div id='test'>" +
-    "<h3>{{artist_name}}</h3>" +
-    "<h4>{{city}}</h4>" +
-    "<p>City Unigrams: {{city_unigrams}}</p>" +
-    "<p>City Bigrams: {{city_bigrams}}</p>" +
-    "<p>Most common words: {{common_words}}</p>" +
-  "</div>"
-
 var eek = require('./templates/artist.hbs');
 var context = require("./../output/search_data.json");
 
@@ -40,11 +30,14 @@ function pageBuild() {
   for (var i = 0; i < artists.length; i++) {
     var artistResult = eek(context[artists[i]]);
     artistStream.write(artistResult);
-    dropdownStream.write("<li>" + artists[i] + "</li>");
+    dropdownStream.write("<option value="+"'"+artists[i]+"'>" + artists[i] + "</option>");
   }
   artistStream.end()
   dropdownStream.end()
 }
 
+//creates individual files for each artist
  // blurbBuild()
+
+ //creates content within one doc for each artist
  pageBuild()
