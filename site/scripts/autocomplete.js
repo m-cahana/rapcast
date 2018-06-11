@@ -101,6 +101,10 @@ document.addEventListener("click", function (e) {
 autocomplete(document.getElementById("myInput"), artists);
 
 document.getElementById("artistinput").addEventListener("click", function(event){
-    document.getElementsByClassName("artist_info").style = "display: none";
+    // document.getElementsByTagName("form").reset();
+    var divsToHide = document.getElementsByClassName("artist_info");
+    for (var i = 0; i < divsToHide.length; i++) {
+        divsToHide[i].style.display = "none";
+    }
     document.getElementById(document.getElementById("myInput").value).style = "display: show;";
 });
