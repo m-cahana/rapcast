@@ -102,10 +102,7 @@
 
               <p>In order to complete our project, we trained a Linear SVM learner on the lyric corpuses of 300 of the world’s most popular rap artists. Rappers’ lyrics were scraped from <a href='https://genius.com/'>Genius</a> and processed in a bag-of-words format. We found that rappers’ lyrics can be predictive of where they’re from, and our Linear SVM model achieved 63% accuracy on average in predicting rapper’s regions, and 56% accuracy on average in predicting rapper’s cities. The Linear SVM model consistently outperformed Random Forest, Multinomial Naive Bayes, and Logistic Regression classifiers.</p>
 
-              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), the accuracies of our our classifiers generally dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. Below is a box plot of the accuracies each of our classifers acheived in 10-fold cross validation with rappers' cities specified as the target class: </p>
-              <div>
-                <img src="./site/jpg_figures/allcity_box.jpg" width=100%" height="auto"/>
-              </div>
+              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), the accuracies of our our classifiers generally dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. </p>
 
             <h4 id='data'>Data</h4>
               <p>We started our work by creating a dataset of rap lyrics. We picked out 300 of rap’s most popular artists from the 1980s to present day, and gathered lyric corpuses for each artist. </p>
