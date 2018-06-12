@@ -1,11 +1,14 @@
 #searchbar {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
-.artist_info {
-  transition: opacity 1s ease-in;
-}
+/* .artist_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 
 * { box-sizing: border-box; }
