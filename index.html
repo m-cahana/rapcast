@@ -43,11 +43,11 @@
     <!--
     <link rel="canonical" href="http://www.example.com/">
     -->
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./site/styles/autocomplete.css">
     <style>
     #view-source {
       position: fixed;
@@ -83,7 +83,6 @@
 
         <div class="mdl-layout__tab-panel" id="features">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <!-- <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col"> -->
             <div class="mdl-cell mdl-cell--12-col">
               <h1 style="text-align: center">Rapcast</h1>
               <br>
@@ -96,24 +95,61 @@
                   <li></li>
                 </ul>
               <p>The 20 most common words in the lyric corpus comprised of more than 78,000 rap songs are:</p>
-
-
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              <br>
+              <br>
             </div>
           </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-          <div class="mdl-cell mdl-cell--12-col">
+
+
+        <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <div id="searchbar">
+                <form autocomplete="off" action="/action_page.php">
+                  <div class="autocomplete" style="width:300px;">
+                    <input id="myInput" type="text" name="myCountry" placeholder="Search for a rapper">
+                  </div>
+                  <input id="artistinput" type="button" value="show me more!" class="mdl-button mdl-js-button mdl-button--primary">
+                </form>
+              </div>
+            </div>
+
+            <div class="artist_info" class="demo-card mdl-card mdl-shadow--2dp" id='Dana Dane' style="width: 100%; display: none;">
+              <div class="mdl-card__title" style="display: flex; justify-content: center;">
+                <h2 class="mdl-card__title-text">Dana Dane – New York</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <p>City Unigrams: flatbush,bronx</p>
+                <p>City Bigrams: word bond,long island</p>
+                <p>Most common words: el,de,yo,la,lo,make,tu,mi,poron,soy,y,pom,que,amore,ay,ayy,te,voy,se,con</p>
+              </div>
+            </div>
+            <div class="artist_info" class="demo-card mdl-card mdl-shadow--2dp" id='Eric B. & Rakim' style="width: 100%; display: none;">
+              <div class="mdl-card__title" style="display: flex; justify-content: center;">
+                <h2 class="mdl-card__title-text">Eric B. &amp; Rakim – New York</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <p>City Unigrams: flatbush,bronx</p>
+                <p>City Bigrams: word bond,long island</p>
+                <p>Most common words: em,said,hit,get,ya,-,mic,la,rhyme,back,keep,see,r,let,know,time,go,got,check,make</p>
+              </div>
+            </div>
 
             <h4>Abstract</h4>
-              <p>While many musicians like to pay homage to where they’re from, rappers do so as if it’s a cardinal rule. They represent their hometowns constantly in their music. Some even go so far as to tattoo symbols of their cities onto themselves (see: Drake’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of Toronto’s area code, and Lil Wayne’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of the fleur-de-lis, a symbol from the New Orleans <a href='https://en.wikipedia.org/wiki/Flag_of_New_Orleans#/media/File:Flag_of_New_Orleans,_Louisiana.svg'>city flag</a>). While rappers often mention their hometowns by name in their music, they also display their regional identity in more subtle ways. By using slang specific to where they’re from, rappers naturally root their work in the vocabularies of their neighborhoods.</p>
+              <p>While many musicians like to pay homage to where they’re from, rappers do so as if it’s a cardinal rule. They represent their hometowns constantly in their music. Some even go so far as to tattoo symbols of their cities onto themselves (see: Drake’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of Toronto’s area code, and Lil Wayne’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of the fleur-de-lis, a symbol from the New Orleans <a href='https://en.wikipedia.org/wiki/Flag_of_New_Orleans#/media/File:Flag_of_New_Orleans,_Louisiana.svg'>city flag</a>). While rappers often mention their hometowns by name in their music, they also display their regional identity in more subtle ways. By using slang specific to where they’re from, rappers naturally root their work in the vocabularies of their neighborhoods. </p>
 
               <p>Our project predicts where rappers are from based on their lyric corpus. The project highlights the linguistic diversity of the rap genre, and the regional specificity of rappers’ vocabularies. As rap continues to grow in popularity, this project is proof that rappers continue to represent their hometowns, and to some degree, at least in the lyrical sense, stay true to their roots. </p>
 
-              <p>In order to complete our project, we trained a Linear SVM learner on the lyric corpuses of 300 of the world’s most popular rap artists. Rappers’ lyrics were scraped from <a href='https://genius.com/'>Genius</a> and processed in a bag-of-words format. We found that rappers’ lyrics can be predictive of where they’re from, and our Linear SVM model achieved XX% accuracy in predicting rapper’s regions, and XX% accuracy in predicting rapper’s cities. The Linear SVM model consistently outperformed Random Forest, Multinomial Naive Bayes, and Logistic Regression classifiers.</p>
+              <p>In order to complete our project, we trained a Linear SVM learner on the lyric corpuses of 300 of the world’s most popular rap artists. Rappers’ lyrics were scraped from <a href='https://genius.com/'>Genius</a> and processed in a bag-of-words format. We found that rappers’ lyrics can be predictive of where they’re from, and our Linear SVM model achieved 63% accuracy on average in predicting rapper’s regions, and 56% accuracy in predicting rapper’s cities. The Linear SVM model consistently outperformed Random Forest, Multinomial Naive Bayes, and Logistic Regression classifiers.</p>
 
-              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), our model’s accuracy dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. </p>
+              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), the accuracies of our our classifiers generally dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. </p>
 
             <h4>Data</h4>
-              <p>We started our work by creating a dataset of rap lyrics. We picked out 306 of rap’s most popular artists from the 1980s to present day, and gathered lyric corpuses for each artist. </p>
+              <p>We started our work by creating a dataset of rap lyrics. We picked out 300 of rap’s most popular artists from the 1980s to present day, and gathered lyric corpuses for each artist. </p>
 
               <p>To do this, we first scraped the <a href='https://docs.genius.com'>Genius API </a> for song urls. For each artist, we collected the urls of up to 500 of their most popular songs, with each url being a link to the song’s annotated lyrics on the Genius site. This scraping resulted in over 78,000 song urls. We then scraped again to extract lyrics from every song url, creating a body of lyric corpuses for each of our 300 artists, as well as thousands of other artists featured on the songs of the 300 artists in question. </p>
 
@@ -125,38 +161,29 @@
               <iframe width="100%" height="520" frameborder="0" src="https://jdk27.carto.com/builder/ba05580b-e21c-49d8-9e3b-9a9f8ff42492/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
             <h4>Methods</h4>
-              <p> We spent our time testing different learning methods over datasets with varying amounts of discrete classes..</p>
-
-              <p>We used Python’s SciKit-Learn package to train all of our classifiers. Because our data was processed into a bag-of-words format, we decided to experiment with:
-                Linear Support Vector Machine,  Multinomial Naive Bayes, Logistic Regression, and Random Forest classifiers for our multi-class text classification. </p>
-
+              <p> We tested four different learning methods over datasets with varying amounts of discrete classes, using Python’s SciKit-Learn package to train all of our classifiers. Because our data was processed into a bag-of-words format, we decided to experiment with Linear Support Vector Machine,  Multinomial Naive Bayes, Logistic Regression, and Random Forest classifiers for our multi-class text classification. </p>
               <ul>
-                <li><b>Linear Support Vector Machines:</b> Perceptrons that work in a derived feature space and maximize margin. Helpful to measure distances between classifications.</li>
-                <li><b>Multinomial Naive Bayes:</b> Bayes’ Rule with strong conditional independence assumptions. Does not always clarify training data correctly. Helpful for understanding our classes’ linear independence.</li>
-                <li><b>Logistic Regression:</b> Assigns data points to discrete classes. Unique from Naive Bayes in that it does always classify its training data. Once again, helpful for determining linear independence. </li>
-                <li><b>Random Forest:</b> Multiple decision trees applied over subsets of data and then averaged. Helpful for identifying the most relevant features for a classification</li>
-              </ul>
-
-              <p>Before training, we ranked which words (features) were most correlated with each location. It was important to understand the most correlated unigrams and bigrams because it gave valuable insight on which words were most informative.</p>
-
-              <p>For our initial model training we used 10-fold cross validation on our dataset containing the lyric corpuses of all 300 artists and their respective regions (ex: West, Northeast). We then increased the granularity of our experiment by changing our class from an artist’s region to an artist’s city, and then to an artist’s sub-city. In addition, we trained our models on artists from only one particular era (ex: 1980s, 1990s) in order to illustrate the evolving nature of rap slang. </p>
+                <li><b>Linear Support Vector Machines:</b> Perceptrons that work in a derived feature space and maximize margin. Work well with high dimensional data and are helpful to measure distances between classifications.</li>
+                <li><b>Multinomial Naive Bayes:</b> Bayes’ Rule with strong conditional independence assumptions. Easy to build and use on large data sets. Helpful for understanding our classes’ linear independence. Although it is simple, it is known to outperform more sophisticated classification methods.</li>
+                <li><b>Logistic Regression:</b> Assigns data points to discrete classes. Unique from Naive Bayes in that it does always classify its training data. Once again, helpful for determining linear independence, and recommended by many for text classification. </li>
+                <li><b>Random Forest:</b> Ensemble learning method that applies multiple decision trees over subsets of data to then output an average tree. Helpful for identifying the most relevant features for a classification</li>
+              <p>Before training, we ranked which words (features) were most correlated with each location. It was important for us to understand the most correlated unigrams and bigrams for each region, city, and sub-city in our data because it gave valuable insight on which words were most informative, insight that would prove harder to back out from our trained models. </p>
+              <p>We trained all our models using 10-fold cross validation on our dataset containing the lyric corpuses of all 300 artists and their respective regions (ex: West, Northeast). We then increased the granularity of our experiment by changing our class from an artist’s region to an artist’s city, and then to an artist’s sub-city. In addition, we trained our models on artists from only one particular era (ex: 1980s, 1990s) in order to illustrate the evolving nature of rap slang. </p>
 
             <h4>Results</h4>
-              <p>Linear Support Vector Machines (Linear SVMs), proved to be especially effective for our data because by putting the data in a derived--higher dimensional--feature space and working to maximize the margins between classes, they created a more clear line of separability between classes than any other model we trained. Since we wanted to predict an artist’s origin, we wanted to maximize the space between each class to get a more clear division for classification. For these reasons, datasets with more artists and fewer location classifications yield the most accurate predictions. </p>
+              <p>Linear Support Vector Machines (Linear SVMs), proved to be especially effective for our data. By putting the data in a derived--higher dimensional--feature space and working to maximize the margins between classes, Linear SVMs created a more clear line of separability between classes than any other model we trained. Since we wanted to predict an artist’s origin, we wanted to maximize the space between each class to get a more clear division for classification. For these reasons, datasets with more artists and fewer location classifications yielded the most accurate predictions in our results. </p>
 
-              <p>Below are our results using all artists and trying to classify their regions, cities, and sub-cities. As described above, the model decreased in accuracy as the number of location classes increased.</p>
+              <p>Below are our results using all artists and classifying according to region, city, and sub-city. As described above, our classifiers generally decreased in accuracy as the number of location classes increased. And as can be seen below, Linear SVMs consistently outperform all other classifiers, regardless of the granularity of the classification task. Given the difficulty of this task, we think that the accuracies achieved by our Linear SVM are fairly good. We could predict artists’ origins with greater than 50% accuracy based off the language they use.  Using logistic regression as a baseline, we can see that the </p>
 
               <img src="./figures/allregion_box.pdf">
 
-            <!-- <h4>Details</h4>
-            <h4>Where Our Rappers Come From</h4>
-            <iframe width="100%" height="520" frameborder="0" src="https://jdk27.carto.com/builder/ba05580b-e21c-49d8-9e3b-9a9f8ff42492/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
             <h4>About Us</h4>
-            This project was made by <a href="mailto:michaelcahana2018@u.northwestern.edu">Michael Cahana</a>, <a href="mailto:joshuaklein2020@u.northwestern.edu">Josh Klein</a>, and <a href="maxinewhitely2020@u.northwestern.edu">Maxine Whitely</a>.
-            The project was completed in EECS 349: Machine Learning at Northwestern University
+              <p>This project was made by <a href="mailto:michaelcahana2018@u.northwestern.edu">Michael Cahana</a>, <a href="mailto:joshuaklein2020@u.northwestern.edu">Josh Klein</a>, and <a href="maxinewhitely2020@u.northwestern.edu">Maxine Whitely</a>.
+            The project was completed in EECS 349: Machine Learning at Northwestern University. </p>
           </div>
+
           </section>
-        </div>
+        <!-- </div> -->
         <footer class="mdl-mega-footer">
           <div class="mdl-mega-footer--middle-section">
             <div class="mdl-mega-footer--drop-down-section">
@@ -212,7 +239,8 @@
         </footer>
       </main>
     </div>
-    <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a>
+    <!-- <a href="https://github.com/google/material-design-lite/blob/mdl-1.x/templates/text-only/" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Source</a> -->
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./site/scripts/autocomplete.js"></script>
   </body>
 </html>
