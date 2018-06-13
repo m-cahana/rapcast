@@ -71,7 +71,7 @@
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div> -->
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark" style="display: flex; justify-content: center;">
           <a href="#abstract" class="mdl-layout__tab is-active">Abstract</a>
           <a href="#data" class="mdl-layout__tab">Data</a>
           <a href="#playing" class="mdl-layout__tab">Playing With Data</a>
@@ -89,36 +89,7 @@
               <h1 style="text-align: center">Rapcast</h1>
               <h4 style="text-align: center">Forecasting Rappers' Hometowns Based On Their Lyric Corpus</h4>
               <br>
-              <br>
-              <div class="demo-card mdl-card mdl-shadow--2dp" style="width: 100%; padding: 20px;">
-              <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, below are the 20 most common words in English
-                according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> as
-                well as the 20 most common words in rap lyrics as determined by our lyric corpuses comprised of 78,000+ songs.</p>
-              <div id="split" style="display: flex; justify-content: space-around;">
-                <div>
-                  <!-- <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> the 20 most common words in English are:</p> -->
-                    <h4>English</h4>
-                    <ul>
-                      <li>new</li><li>home</li><li>page</li><li>search</li><li>free</li><li>information</li><li>time</li><li>site</li><li>may</li><li>news</li><li>use</li><li>see</li><li>contact</li><li>business</li><li>web</li><li>also</li><li>help</li><li>get</li><li>pm</li><li>view</li>
-                    </ul>
-                </div>
-                <div>
-                  <!-- <p>The 20 most common words in the lyric corpus comprised of more than 78,000 rap songs are:</p> -->
-                    <h4>Rap lyrics</h4>
-                    <ul>
-                      <li>got</li><li>get</li><li>ni**a</li><li>know</li><li>ni**as</li><li>sh*t</li><li>f*ck</li><li>b**ch</li><li>go</li><li>back</li><li>see</li><li>money</li><li>make</li><li>man</li><li>ya</li><li>love</li><li>never</li><li>say</li><li>want</li><li>wanna</li>
-                    </ul>
-                </div>
-              </div>
-              <!-- <p> Data: <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> and our data -- a lyric corpous comprised of 78,000+ songs.</p> -->
-              <br>
-              <p>Our project examines what rap's unique language can tell us about the artists and cultures that created it. </p>
             </div>
-            </div>
-
-
-        
-
 
             <h4>Abstract</h4>
               <p>While many musicians like to pay homage to where they’re from, rappers do so as if it’s a cardinal rule. They represent their hometowns constantly in their music. Some even go so far as to tattoo symbols of their cities onto themselves (see: Drake’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of Toronto’s area code, and Lil Wayne’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of the fleur-de-lis, a symbol from the New Orleans <a href='https://en.wikipedia.org/wiki/Flag_of_New_Orleans#/media/File:Flag_of_New_Orleans,_Louisiana.svg'>city flag</a>). While rappers often mention their hometowns by name in their music, they also display their regional identity in more subtle ways. By using slang specific to where they’re from, rappers naturally root their work in the vocabularies of their neighborhoods. </p>
@@ -141,8 +112,34 @@
               <p>Hover over the dots to see our selected artists' hometowns:</p>
               <iframe width="100%" height="520" frameborder="0" src="https://jdk27.carto.com/builder/ba05580b-e21c-49d8-9e3b-9a9f8ff42492/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-
+            <br>
+            <br>
             <h4>Playing With Our Data</h4>
+              <div class="demo-card mdl-card mdl-shadow--2dp" style="width: 100%; padding: 20px;">
+              <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, below are the 20 most common words in English
+                according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> as
+                well as the 20 most common words in rap lyrics as determined by our lyric corpuses comprised of 78,000+ songs.</p>
+              <div id="split" style="display: flex; justify-content: space-around;">
+                <div>
+                  <!-- <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> the 20 most common words in English are:</p> -->
+                    <h4>English</h4>
+                    <ul>
+                      <li>new</li><li>home</li><li>page</li><li>search</li><li>free</li><li>information</li><li>time</li><li>site</li><li>may</li><li>news</li><li>use</li><li>see</li><li>contact</li><li>business</li><li>web</li><li>also</li><li>help</li><li>get</li><li>pm</li><li>view</li>
+                    </ul>
+                </div>
+                <div>
+                  <!-- <p>The 20 most common words in the lyric corpus comprised of more than 78,000 rap songs are:</p> -->
+                    <h4>Rap lyrics</h4>
+                    <ul>
+                      <li>got</li><li>get</li><li>ni**a</li><li>know</li><li>ni**as</li><li>sh*t</li><li>f*ck</li><li>b**ch</li><li>go</li><li>back</li><li>see</li><li>money</li><li>make</li><li>man</li><li>ya</li><li>love</li><li>never</li><li>say</li><li>want</li><li>wanna</li>
+                    </ul>
+                </div>
+              </div>
+              <!-- <p> Data: <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> and our data -- a lyric corpous comprised of 78,000+ songs.</p> -->
+              <br>
+            </div>
+            <br>
+            <br>
               <p>Before training on our data, we generated the most correlated unigrams and bigrams for each region, city, and sub-city in our dataset, as well as the 20 most common words (excluding stop words) of each artist in our dataset. Search for your favorite artist in the following drop-down menu to view their most common words, as well as the most correlated unigrams and bigrams of their city!</p>
               <section class="section--center mdl-grid mdl-grid--no-spacing">
               <div class="mdl-cell mdl-cell--12-col">
@@ -3207,11 +3204,16 @@
                 </div>
               </div>
               </section>
-              <p> We highly encourage reading up about some unigrams or bigrams that catch your eye. For instance, searching for Chicago's two most correlated unigrams, 3hunna and lamron, on <a href="https://www.urbandictionary.com">Urban Dictionary</a> will reveal that 3hunna is slang for the set of the Black Disciples gang located in the south side of Chicago, and lamron is slang for Normal, the street that runs through the neighborhoods of many Chicago rappers (notice that lamron is just normal spelled backwards). Searching for Philadelphia's bigram, state prop, will reveal that it refers to State Property, a division of Jay-Z's Rocafella label whose members are all originally from Philly. While not all of the most correlated unigrams and bigrams that we generated are as illustrative as these two, many of them can be interesting to look further into. </p>
-
-
-
-
+              <p> We highly encourage reading up about some unigrams or bigrams that catch your eye. While not all of the most correlated words will directly relate to their cities, many of them can be interesting to look further into. We used <a href="https://www.urbandictionary.com">Urban Dictionary</a> to find much of this information.</p>
+                  <ul>
+                    <li><b>Chicago - "3hunna": </b>slang for the set of the Black Disciples gang located in the south side of Chicago.</li>
+                    <li><b>Chicago - "lamron": </b>slang for Normal, the street that runs through the neighborhoods of many Chicago rappers (notice that lamron is just normal spelled backwards).</li>
+                    <li><b>Philadelphia - "state prop": </b>refers to State Property, a division of Jay-Z's Rocafella label whose members are all originally from Philly.</li>
+                    <li><b>New York - "flatbush" and "bronx": </b>both neighborhoods in New York City.</li>
+                    <li><b>Detroit - "313": </b>the city's area code.</li>
+                    <li><b>Houston - "swishahouse": </b>a music label created based on the popularity of "chopped and screwed" music, which originated in the south side of Houston.</li>
+                    <li><b>Los Angeles - "parental discretion": </b>a reference to N.W.A, a highly influential rap group from L.A.</li>
+                  </ul>
             <h4>Methods</h4>
               <p> We tested four different learning methods over datasets with varying amounts of discrete classes, using Python’s SciKit-Learn package to train all of our classifiers. Because our data was processed into a bag-of-words format, we decided to experiment with Linear Support Vector Machine,  Multinomial Naive Bayes, Logistic Regression, and Random Forest classifiers for our multi-class text classification. </p>
               <ul>
@@ -3228,12 +3230,30 @@
 
               <p>Below are our results using all artists and classifying according to region, city, and sub-city. As described above, our classifiers generally decreased in accuracy as the number of location classes increased. And as can be seen below, Linear SVMs consistently outperform all other classifiers, regardless of the granularity of the classification task. Given the difficulty of this task, we think that the accuracies achieved by our Linear SVM are fairly good. We could predict artists’ origins with greater than 50% accuracy based off the language they use. Using logistic regression as a baseline, we found that the difference in accuracy achieved by our Linear SVM model was statistically significant at the region level (p-value of 0.0325), city level (p-value of 0.0005), and even sub-city level (p-value of < 0.0001): </p>
 
-              <div id="sideby" style="display: flex; flex-direction: row;">
-                <img src="./site/jpg_figures/allregion_box.jpg" width="30%" height="auto"/>
-                <!-- <p>all artists, classifying by region</p> -->
-                <img src="./site/jpg_figures/allcity_box.jpg" width="30%"height="auto"/>
-                <img src="./site/jpg_figures/allsub_city_box.jpg" width="30%"height="auto"/>
+              <div id="sideby" style="display: flex; flex-direction: row; width: fit-content; align-items: flex-end;">
+                <img src="./site/jpg_figures/allregion_box.jpg" width="75%"/>
+                <div>
+                  <p><em>All artists, classified by region:</em></p>
+                  <p>The highest prediction accuracy is reached using Linear SVC. Note that this is also the highest accuracy achieved over any other classification methods. This is due to the large number of artists with less possible classifications.</p>
+                </div>
               </div>
+              <div id="sideby" style="display: flex; flex-direction: row; width: fit-content; align-items: flex-end;">
+                <img src="./site/jpg_figures/allcity_box.jpg" width="75%"/>
+                <div>
+                  <p><em>All artists, classified by city:</em></p>
+                  <p>The classification accuracy abilities of all models decrease due to the increase in classes. The highest prediction accuracy is still reached using Linear SVC.</p>
+                </div>
+              </div>
+              <div id="sideby" style="display: flex; flex-direction: row; width: fit-content; align-items: flex-end;">
+                <img src="./site/jpg_figures/allsub_city_box.jpg" width="75%"/>
+                <div>
+                  <p><em>All artists, classified by sub-city:</em></p>
+                  <p>The classification accuracy abilities of all models decrease once again, once again due to the increase in classes. The highest prediction accuracy is still reached using Linear SVC.</p>
+                </div>
+              </div>
+                <!-- <p>all artists, classifying by region</p> -->
+                <!-- <img src="./site/jpg_figures/allcity_box.jpg"/> -->
+                <!-- <img src="./site/jpg_figures/allsub_city_box.jpg"/> -->
 
             <h4>Future work</h4>
               <p>We think this project has room to improve, and in the future, would like to train our model with a larger dataset, which we think will improve its accuracy. This larger dataset would include new artists as well as more songs for each artist. </p>
