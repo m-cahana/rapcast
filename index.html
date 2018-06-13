@@ -63,7 +63,7 @@
 
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary" id='top'>
         <!-- <div class="mdl-layout--large-screen-only mdl-layout__header-row">
         </div>
         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
@@ -89,11 +89,39 @@
               <h1 style="text-align: center">Rapcast</h1>
               <h4 style="text-align: center">Forecasting Rappers' Hometowns Based On Their Lyric Corpus</h4>
               <br>
-              <br>
+            </div>
+
+
+        
+
+
+            <h4 id='abstract'> Abstract</h4>
+              <p>While many musicians like to pay homage to where they’re from, rappers do so as if it’s a cardinal rule. They represent their hometowns constantly in their music. Some even go so far as to tattoo symbols of their cities onto themselves (see: Drake’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of Toronto’s area code, and Lil Wayne’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of the fleur-de-lis, a symbol from the New Orleans <a href='https://en.wikipedia.org/wiki/Flag_of_New_Orleans#/media/File:Flag_of_New_Orleans,_Louisiana.svg'>city flag</a>). While rappers often mention their hometowns by name in their music, they also display their regional identity in more subtle ways. By using slang specific to where they’re from, rappers naturally root their work in the vocabularies of their neighborhoods. </p>
+
+              <p>Our project predicts where rappers are from based on their lyric corpus. The project highlights the linguistic diversity of the rap genre, and the regional specificity of rappers’ vocabularies. As rap continues to grow in popularity, this project is proof that rappers continue to represent their hometowns, and to some degree, at least in the lyrical sense, stay true to their roots. </p>
+
+              <p>In order to complete our project, we trained a Linear SVM learner on the lyric corpuses of 300 of the world’s most popular rap artists. Rappers’ lyrics were scraped from <a href='https://genius.com/'>Genius</a> and processed in a bag-of-words format. We found that rappers’ lyrics can be predictive of where they’re from, and our Linear SVM model achieved 63% accuracy on average in predicting rapper’s regions, and 56% accuracy on average in predicting rapper’s cities. The Linear SVM model consistently outperformed Random Forest, Multinomial Naive Bayes, and Logistic Regression classifiers.</p>
+
+              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), the accuracies of our our classifiers generally dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. </p>
+
+            <h4 id='data'>Data</h4>
+              <p>We started our work by creating a dataset of rap lyrics. We picked out 300 of rap’s most popular artists from the 1980s to present day, and gathered lyric corpuses for each artist. </p>
+
+              <p>To do this, we first scraped the <a href='https://docs.genius.com'>Genius API </a> for song urls. For each artist, we collected the urls of up to 500 of their most popular songs, with each url being a link to the song’s annotated lyrics on the Genius site. This scraping resulted in over 78,000 song urls. We then scraped again to extract lyrics from every song url, creating a body of lyric corpuses for each of our 300 artists, as well as thousands of other artists featured on the songs of the 300 artists in question. </p>
+
+              <p>With our lyric data finally scraped, we manually searched through Wikipedia to determine the hometowns of our 300 artists. We assigned artists a region (ex: Northeast), city (ex: New York), and sub-city (ex: Queens), so that we could later adjust the granularity of our target class in training and testing. </p>
+
+              <p>In addition, we removed <a href='https://en.wikipedia.org/wiki/Stop_words'> stop words</a> from our lyric corpuses, and processed the corpuses into a <a href='https://en.wikipedia.org/wiki/Bag-of-words_model'> bag-of-words</a> format. We used a logarithmic form for the frequency of each word vector in our bag-of-words, and normalized our vectors so that they would sum to one. We also processed words using a  <a href='https://en.wikipedia.org/wiki/Tf%E2%80%93idf'> tf-idf</a> approach in order to reflect the importance of each word to its respective lyric corpus. </p>
+
+              <p>Hover and click on the dots to see our selected artists' hometowns:</p>
+              <iframe width="100%" height="520" frameborder="0" src="https://jdk27.carto.com/builder/ba05580b-e21c-49d8-9e3b-9a9f8ff42492/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+
+            <h4 id='playing'>Playing With Our Data</h4>
               <div class="demo-card mdl-card mdl-shadow--2dp" style="width: 100%; padding: 20px;">
-              <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, below are the 20 most common words in English
-                according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> as
-                well as the 20 most common words in rap lyrics as determined by our lyric corpuses comprised of 78,000+ songs.</p>
+              <p> Excluding stop words, below are the 20 most common words in English
+                according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a>, as
+                well as the 20 most common words in rap lyrics as determined by our data of over 78,000 songs.</p>
               <div id="split" style="display: flex; justify-content: space-around;">
                 <div>
                   <!-- <p> Excluding <a href='https://en.wikipedia.org/wiki/Stop_words'>stop words</a>, according to <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> the 20 most common words in English are:</p> -->
@@ -111,39 +139,8 @@
                 </div>
               </div>
               <!-- <p> Data: <a href="https://github.com/first20hours/google-10000-english" target="_blank">Google's Trillion Word Corpus</a> and our data -- a lyric corpous comprised of 78,000+ songs.</p> -->
-              <br>
-              <p>Our project examines what rap's unique language can tell us about the artists and cultures that created it. </p>
             </div>
-            </div>
-
-
-        
-
-
-            <h4>Abstract</h4>
-              <p>While many musicians like to pay homage to where they’re from, rappers do so as if it’s a cardinal rule. They represent their hometowns constantly in their music. Some even go so far as to tattoo symbols of their cities onto themselves (see: Drake’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of Toronto’s area code, and Lil Wayne’s <a href='http://zone1.sprdit.netdna-cdn.com/wp-content/uploads/2012/01/drake-416-tattoo.jpg'>tattoo</a> of the fleur-de-lis, a symbol from the New Orleans <a href='https://en.wikipedia.org/wiki/Flag_of_New_Orleans#/media/File:Flag_of_New_Orleans,_Louisiana.svg'>city flag</a>). While rappers often mention their hometowns by name in their music, they also display their regional identity in more subtle ways. By using slang specific to where they’re from, rappers naturally root their work in the vocabularies of their neighborhoods. </p>
-
-              <p>Our project predicts where rappers are from based on their lyric corpus. The project highlights the linguistic diversity of the rap genre, and the regional specificity of rappers’ vocabularies. As rap continues to grow in popularity, this project is proof that rappers continue to represent their hometowns, and to some degree, at least in the lyrical sense, stay true to their roots. </p>
-
-              <p>In order to complete our project, we trained a Linear SVM learner on the lyric corpuses of 300 of the world’s most popular rap artists. Rappers’ lyrics were scraped from <a href='https://genius.com/'>Genius</a> and processed in a bag-of-words format. We found that rappers’ lyrics can be predictive of where they’re from, and our Linear SVM model achieved 63% accuracy on average in predicting rapper’s regions, and 56% accuracy in predicting rapper’s cities. The Linear SVM model consistently outperformed Random Forest, Multinomial Naive Bayes, and Logistic Regression classifiers.</p>
-
-              <p>As we changed the granularity of our target class from region (ex: Northeast, West) to city (ex: New York City, Los Angeles) to sub-city (ex: Brooklyn, Queens, Compton, Long Beach), the accuracies of our our classifiers generally dipped. We found that while lyrics can be extremely predictive of a rapper’s region or metropolitan city, pinning down a rapper's town of origin given their lyric corpus was difficult given the amount of data we had available. </p>
-
-            <h4>Data</h4>
-              <p>We started our work by creating a dataset of rap lyrics. We picked out 300 of rap’s most popular artists from the 1980s to present day, and gathered lyric corpuses for each artist. </p>
-
-              <p>To do this, we first scraped the <a href='https://docs.genius.com'>Genius API </a> for song urls. For each artist, we collected the urls of up to 500 of their most popular songs, with each url being a link to the song’s annotated lyrics on the Genius site. This scraping resulted in over 78,000 song urls. We then scraped again to extract lyrics from every song url, creating a body of lyric corpuses for each of our 300 artists, as well as thousands of other artists featured on the songs of the 300 artists in question. </p>
-
-              <p>With our lyric data finally scraped, we manually searched through Wikipedia to determine the hometowns of our 300 artists. We assigned artists a region (ex: Northeast), city (ex: New York), and sub-city (ex: Queens), so that we could later adjust the granularity of our target class in training and testing. </p>
-
-              <p>In addition, we removed <a href='https://en.wikipedia.org/wiki/Stop_words'> stop words</a> from our lyric corpuses, and processed the corpuses into a <a href='https://en.wikipedia.org/wiki/Bag-of-words_model'> bag-of-words</a> format. We used a logarithmic form for the frequency of each word vector in our bag-of-words, and normalized our vectors so that they would sum to one. We also processed words using a  <a href='https://en.wikipedia.org/wiki/Tf%E2%80%93idf'> tf-idf</a> approach in order to reflect the importance of each word to its respective lyric corpus. </p>
-
-              <p>Hover over the dots to see our selected artists' hometowns:</p>
-              <iframe width="100%" height="520" frameborder="0" src="https://jdk27.carto.com/builder/ba05580b-e21c-49d8-9e3b-9a9f8ff42492/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-
-            <h4>Playing With Our Data</h4>
-              <p>Before training on our data, we generated the most correlated unigrams and bigrams for each region, city, and sub-city in our dataset, as well as the 20 most common words (excluding stop words) of each artist in our dataset. Search for your favorite artist in the following drop-down menu to view their most common words, as well as the most correlated unigrams and bigrams of their city!</p>
+              <p>Before training on our data, we also generated the most correlated unigrams and bigrams for each region, city, and sub-city in our dataset, as well as the 20 most common words (excluding stop words) of each artist in our dataset. Search for your favorite artist in the following drop-down menu to view their most common words, as well as the most correlated unigrams and bigrams of their city!</p>
               <section class="section--center mdl-grid mdl-grid--no-spacing">
               <div class="mdl-cell mdl-cell--12-col">
                 <div id="searchbar">
@@ -3212,7 +3209,7 @@
 
 
 
-            <h4>Methods</h4>
+            <h4 id='methods'>Methods</h4>
               <p> We tested four different learning methods over datasets with varying amounts of discrete classes, using Python’s SciKit-Learn package to train all of our classifiers. Because our data was processed into a bag-of-words format, we decided to experiment with Linear Support Vector Machine,  Multinomial Naive Bayes, Logistic Regression, and Random Forest classifiers for our multi-class text classification. </p>
               <ul>
                 <li><b>Linear Support Vector Machines:</b> Perceptrons that work in a derived feature space and maximize margin. Work well with high dimensional data and are helpful to measure distances between classifications.</li>
@@ -3223,24 +3220,28 @@
               <p>Before training, we ranked which words (features) were most correlated with each location. It was important for us to understand the most correlated unigrams and bigrams for each region, city, and sub-city in our data because it gave valuable insight on which words were most informative, insight that would prove harder to back out from our trained models. </p>
               <p>We trained all our models using 10-fold cross validation on our dataset containing the lyric corpuses of all 300 artists and their respective regions (ex: West, Northeast). We then increased the granularity of our experiment by changing our class from an artist’s region to an artist’s city, and then to an artist’s sub-city. In addition, we trained our models on artists from only one particular era (ex: 1980s, 1990s) in order to illustrate the evolving nature of rap slang. </p>
 
-            <h4>Results</h4>
+            <h4 id='results'>Results</h4>
               <p>Linear Support Vector Machines (Linear SVMs), proved to be especially effective for our data. By putting the data in a derived--higher dimensional--feature space and working to maximize the margins between classes, Linear SVMs created a more clear line of separability between classes than any other model we trained. Since we wanted to predict an artist’s origin, we wanted to maximize the space between each class to get a more clear division for classification. For these reasons, datasets with more artists and fewer location classifications yielded the most accurate predictions in our results. </p>
 
               <p>Below are our results using all artists and classifying according to region, city, and sub-city. As described above, our classifiers generally decreased in accuracy as the number of location classes increased. And as can be seen below, Linear SVMs consistently outperform all other classifiers, regardless of the granularity of the classification task. Given the difficulty of this task, we think that the accuracies achieved by our Linear SVM are fairly good. We could predict artists’ origins with greater than 50% accuracy based off the language they use. Using logistic regression as a baseline, we found that the difference in accuracy achieved by our Linear SVM model was statistically significant at the region level (p-value of 0.0325), city level (p-value of 0.0005), and even sub-city level (p-value of < 0.0001): </p>
 
-              <div id="sideby" style="display: flex; flex-direction: row;">
-                <img src="./site/jpg_figures/allregion_box.jpg" width="30%" height="auto"/>
+              <!-- <div id="sideby" style="display: flex; flex-direction: row;"> -->
+              <div>
+                <p align="center"> <b>Region Level </b></p>
+                <img src="./site/jpg_figures/allregion_box.jpg" width="100%" height="auto"/>
                 <!-- <p>all artists, classifying by region</p> -->
-                <img src="./site/jpg_figures/allcity_box.jpg" width="30%"height="auto"/>
-                <img src="./site/jpg_figures/allsub_city_box.jpg" width="30%"height="auto"/>
+                <p align="center"> <b>City Level </b></p>
+                <img src="./site/jpg_figures/allcity_box.jpg" width="100%"height="auto"/>
+                <p align="center"> <b>Sub-City Level </b></p>
+                <img src="./site/jpg_figures/allsub_city_box.jpg" width="100%"height="auto"/>
               </div>
 
-            <h4>Future work</h4>
+            <h4 id='forward'>Looking Forward</h4>
               <p>We think this project has room to improve, and in the future, would like to train our model with a larger dataset, which we think will improve its accuracy. This larger dataset would include new artists as well as more songs for each artist. </p>
               <p>We think it would also be interesting to experiment with Recurrent Neural Networks to build a language sampler model for a given artist based off their lyric corpus. Lastly, we think it would be worthwhile to run similar experiments on other genres of music to best contextualize our findings. </p>
 
 
-            <h4>About Us</h4>
+            <h4 id='about'>About Us</h4>
               <p>This project was made by <a href="mailto:michaelcahana2018@u.northwestern.edu">Michael Cahana</a>, <a href="mailto:joshuaklein2020@u.northwestern.edu">Josh Klein</a>, and <a href="maxinewhitely2020@u.northwestern.edu">Maxine Whitely</a>.
                 While we all contributed to all aspects of the project, Michael oversaw data scraping and processing, Josh oversaw model training, and Maxine oversaw website building. All the code used to create this project can be found on <a href='https://github.com/m-cahana/rapcast'> GitHub</a>. This project was completed in EECS 349: Machine Learning at Northwestern University. </p>
           </div>
@@ -3248,6 +3249,7 @@
           </section>
         <!-- </div> -->
         <footer class="mdl-mega-footer">
+          <a href='#top' class="mdl-mega-footer--heading" style="text-decoration:none;"> Back to Top </a>
           <!-- <div class="mdl-mega-footer--middle-section">
             <div class="mdl-mega-footer--drop-down-section">
               <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
