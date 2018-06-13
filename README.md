@@ -17,3 +17,7 @@ To see most common words for a particular artist:
 
 To see how many times an artist says a given word:
 `bag[<ARTIST>][<WORD>]`
+
+### View the project website:
+https://m-cahana.github.io/rapcast/
+
